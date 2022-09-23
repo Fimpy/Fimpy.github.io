@@ -473,42 +473,6 @@
   display: none;
 }
 
-
-#app-mount .wrapper-NhbLHG:hover .content-1gYQeQ .icon-2W8DHg {
-  color: var(--interactive-normal);
-}
-#app-mount .wrapper-NhbLHG.modeUnread-3Cxepe::before {
-  height: 10px;
-  background: var(--pill-unread);
-  opacity: 1;
-}
-#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH::before {
-  height: var(--pill-height);
-  background: rgb(var(--accent));
-  opacity: 1;
-}
-#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ {
-  background: var(--bg-interactive-high);
-}
-#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ .icon-2W8DHg {
-  color: var(--interactive-active);
-}
-#app-mount .wrapper-NhbLHG.modeSelected-3DmyhH:hover .content-1gYQeQ {
-  background: var(--bg-interactive-high-hover);
-}
-#app-mount .wrapper-NhbLHG::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  border-radius: 50px;
-  height: 0;
-  opacity: 1;
-  width: var(--pill-width);
-  transform: translateY(-50%);
-  transition: var(--pill-transition);
-  z-index: 1;
-}
 #app-mount .content-1gYQeQ {
   border-radius: var(--rounded);
   margin-left: 0;
