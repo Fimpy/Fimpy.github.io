@@ -2136,4 +2136,255 @@ html.theme-light .force-theme.theme-light {
 #app-mount .layer-86YKbF ~ .layer-86YKbF .permissionsForm-xrzuUy + .permissionsForm-xrzuUy {
   margin-top: 40px;
 }
+#app-mount .container-1Lk8p7 .content-2hZxGK {
+  margin-top: 0;
+  flex-direction: column !important;
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix {
+  border-radius: var(--btn-radius);
+  padding: 4px 10px;
+  line-height: 20px;
+  font-size: var(--font-size-sm);
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: var(--btn-bg);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-primary);
+  box-shadow: none !important;
+  border: 1px solid var(--btn-border-x);
+  border-top-color: var(--btn-border-t);
+  border-bottom-color: var(--btn-border-b);
+  cursor: var(--cursor);
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix:hover {
+  background: var(--btn-bg-hover);
+  border-color: var(--btn-border-t) var(--btn-border-x) var(--btn-border-b);
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix:active {
+  background: var(--btn-bg-active) !important;
+  border-color: var(--btn-border-active);
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix .icon-AynerZ {
+  margin: 0 10px 0 0;
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix .text-md-normal-304U3g {
+  color: var(--text-primary);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-sm);
+}
+#app-mount .container-1Lk8p7 .container-x8Y1ix .arrow-2yY1Tm {
+  margin-right: 10px;
+  filter: invert(1);
+}
+#app-mount .container-1Lk8p7 .skip-2hTIXL {
+  color: var(--text-tertiary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height);
+  color: var(--text-muted) !important;
+}
+#app-mount .container-1Lk8p7 .footerTitle-3Bslxi {
+  color: var(--text-tertiary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height);
+  margin: 0;
+}
 
+@-webkit-keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@-webkit-keyframes settingsIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@keyframes settingsIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+
+.winButton-3UMjdg {
+  height: calc(var(--win-btn-height) + 4px);
+  width: var(--win-btn-width);
+  cursor: var(--cursor);
+}
+
+.wordmarkWindows-2dq6rw {
+  display: none;
+}
+
+#app-mount .bd-sidebar-header {
+  display: none;
+}
+
+#app-mount .bd-switch {
+  background: transparent !important;
+  width: 40px;
+  height: 20px;
+}
+#app-mount .bd-switch svg {
+  display: none;
+}
+#app-mount .bd-switch input {
+  display: inline-flex;
+  align-items: center;
+  opacity: 1;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid var(--switch-border);
+  width: 40px;
+  height: 20px;
+  border-radius: 20px;
+  margin: 0;
+  padding: 0 4px;
+  cursor: var(--cursor);
+  transition: background 0.15s var(--transition), border-color 0.15s var(--transition);
+}
+#app-mount .bd-switch input::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 7px;
+  display: block;
+  background: var(--text-secondary);
+  transition: background 0.15s var(--transition), transform 0.15s var(--transition), width 0.15s var(--transition), height 0.15s var(--transition);
+}
+#app-mount .bd-switch input:hover:not(:checked) {
+  background: hsla(0deg, 0%, 100%, 0.05) !important;
+}
+#app-mount .bd-switch input:hover::before {
+  width: 14px;
+  height: 14px;
+}
+#app-mount .bd-switch input:active::before {
+  width: 18px;
+}
+#app-mount .bd-switch input:checked {
+  background: rgb(var(--accent));
+  border-color: rgb(var(--accent));
+}
+#app-mount .bd-switch input:checked::before {
+  background: var(--accent-text);
+  transform: translateX(18px);
+}
+#app-mount .bd-switch input:checked:hover {
+  box-shadow: inset 0 0 0 100vmax hsla(0deg, 0%, 0%, 0.12);
+  border-color: hsla(0deg, 0%, 0%, 0.12);
+}
+#app-mount .bd-switch input:checked:active::before {
+  transform: translateX(13px);
+}
+#app-mount .bd-switch-body {
+  display: none;
+}
+
+#app-mount .bd-addon-card {
+  border-radius: var(--rounded);
+  border: 1px solid var(--border);
+  background: var(--bg-content);
+}
+#app-mount .bd-addon-header {
+  background: transparent;
+  padding: 16px 16px 8px;
+}
+#app-mount .bd-title {
+  color: var(--text-secondary);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-lg);
+}
+#app-mount .bd-description-wrap {
+  padding: 0 16px 16px;
+}
+#app-mount .bd-footer {
+  padding: 16px 16px;
+  border-top: 1px solid var(--border);
+}
+#app-mount .bd-footer .bd-controls {
+  gap: 8px;
+}
+#app-mount .bd-footer .bd-button {
+  border-radius: var(--btn-radius);
+  padding: 4px 10px;
+  line-height: 20px;
+  font-size: var(--font-size-sm);
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: var(--btn-bg);
+  font-weight: var(--font-weight-regular);
+  color: var(--text-primary);
+  box-shadow: none !important;
+  border: 1px solid var(--btn-border-x);
+  border-top-color: var(--btn-border-t);
+  border-bottom-color: var(--btn-border-b);
+  cursor: var(--cursor);
+  min-width: 50px;
+}
+#app-mount .bd-footer .bd-button:hover {
+  background: var(--btn-bg-hover);
+  border-color: var(--btn-border-t) var(--btn-border-x) var(--btn-border-b);
+}
+#app-mount .bd-footer .bd-button:active {
+  background: var(--btn-bg-active) !important;
+  border-color: var(--btn-border-active);
+}
+#app-mount .bd-footer .bd-button svg {
+  fill: var(--text-secondary);
+}
+#app-mount .bd-footer .bd-button.bd-button-danger svg {
+  fill: hsl(var(--discord-red));
+}
+
+#Fluent-card {
+  position: relative;
+  z-index: -1;
+}
+#Fluent-card::before {
+  content: "";
+  background: url("https://i.imgur.com/HQVfRQy.jpg") center/cover;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.1;
+  pointer-events: none;
+}
+#Fluent-card > div {
+  position: relative;
+  z-index: 1;
+}
