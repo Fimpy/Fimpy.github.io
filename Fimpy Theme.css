@@ -42,7 +42,7 @@
   order: 1;
 }
 #app-mount .searchBar-jGtisZ {
-  background: var(--textbox-bg);
+  background: var(--bg-main);
   border: 1px solid var(--textbox-border);
   height: 30px;
   padding: 0;
@@ -72,7 +72,7 @@
   background: var(--textbox-bg-hover);
 }
 #app-mount .searchBar-jGtisZ:focus-within {
-  background: var(--bg-alt);
+  background: var(--bg-main);
 }
 #app-mount .searchBar-jGtisZ:focus-within::before {
   height: 2px;
