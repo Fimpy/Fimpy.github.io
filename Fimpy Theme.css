@@ -1,104 +1,3 @@
-.discordMemberCreatedAtIconContainer-2oMHqL  {
-   padding: 0px;
-   background-color: var(--background-tertiary);
-}
-
-.discordMemberCreatedAtIcon-126if8 {
-   width: 24px;
-   height: 24px;
-}
-
-.discordMemberCreatedAtText-15sN5q>div{
-   display: none;
-}
-
-.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
-   font-size: 16px;
-   font-family: inherit;
-   font-weight: 600;
-   user-select: text;
-}
-
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg:not(.markup-eYLPri, .galleryImage-1yhJCI),
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg .embedVideo-2ixt5A,
-.ChannelDms-channelpopout-popout .wrapper-1FP9YQ {
-    height: auto !important;
-    width: unset !important;
-    max-width: max-content !important;
-    max-height: 300px;
-}
-
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg .clickableWrapper-2WTAkL img:not(.embedGalleryImageElement-2VNYIN),
-.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg [data-fullscreen="false"] video {
-    position: relative;
-    height: auto !important;
-    width: unset !important;
-    max-width: 100% !important;
-    max-height: 300px;
-} 
-
-.ChannelDms-channelpopout-collapseButton {
-    left: 10px !important;
-    top: 2px !important;
-    opacity: 0
-}
-
-.ChannelDms-channelpopout-collapseButton:hover,
-.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .ChannelDms-channelpopout-collapseButton {
-    opacity: 1
-}
-
-.ChannelDms-channelpopout-removeButton {
-    top: 0 !important;
-    right: 0 !important;
-    opacity: 0
-}
-
-.ChannelDms-channelpopout-popout .button-1yVL_7 {
-    border-radius: 0;
-    width: 100%;
-    height: 36px
-}
-
-/* username */
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .contents-2MsGLg .header-2jRmjb {
-    display: flex;
-}
-
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ {
-    min-width: 0;
-    white-space: nowrap;
-    display:flex;
-}
-
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .username-h_Y3Us {
-    display: block;
-    text-overflow: ellipsis;
-    flex: 1 1;
-}
-
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .timestampInline-_lS3aK {
-    white-space: nowrap;
-    margin-top: 1px;
-}
-
-.ChannelDms-channelpopout-popout .cozy-VmLDNB .headerText-2z4IhQ .PI-indicatorContainer {
-    margin-top: 1px;
-}
-.didRender-2SiRlm>.userPopout-29jUdN {
-    width: 220px;
-}
-
-.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
-.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
-    display: none;
-}
-
-.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
-    margin: 0;
-}
-
 #app-mount .typing-2J1mQU {
   bottom: 0px;
   top: -20px;
@@ -126,6 +25,15 @@
 }
 #app-mount .toolbar-3_r2xA a[href="https://support.discord.com"] {
   display: none;
+}
+#app-mount .searchBar-jGtisZ {
+  background: var(--bg-main);
+  border: 2px solid transparent;
+  padding: 0;
+  height: 32px;
+  width: 250px;
+  transition: var(--transition);
+  transition-property: border-color;
 }
 #app-mount .search-39IXmY {
   border-radius: var(--rounded);
@@ -746,8 +654,8 @@
   --transition: cubic-bezier(0,0,0,1);
   --accent-text: #000;
   --accent-solid: rgb(var(--accent));
-  --pill-width: 4px;
-  --pill-height: 16px;
+  --pill-width: 0px;
+  --pill-height: 0px;
   --pill-transition: opacity .15s var(--transition), height .15s var(--transition);
   --btn-radius: 6px;
   --rounded-high: 8px;
@@ -2511,5 +2419,81 @@ html.theme-light .force-theme.theme-light {
 #app-mount .mentioned-Tre-dv.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
   background: transparent;
 }
+#app-mount .message-2CShn3.selected-2LX7Jy.cozyMessage-1DWF9U .contents-2MsGLg {
+  display: block;
+  width: 100%;
+}
+#app-mount .message-2CShn3.selected-2LX7Jy.cozyMessage-1DWF9U .contents-2MsGLg .channelTextArea-220_Gz {
+  margin-top: 0;
+}
+#app-mount .message-2CShn3.selected-2LX7Jy.cozyMessage-1DWF9U .contents-2MsGLg .slateTextArea-27tjG0 {
+  padding-top: 0;
+}
+#app-mount .cozy-VmLDNB .avatar-2e8lTP {
+  left: var(--chat-spacing-x);
+  margin-top: 0;
+}
+#app-mount .cozy-VmLDNB .contents-2MsGLg > .messageContent-2t3eCI:not(:empty) {
+  margin-left: 0;
+  padding: var(--chat-padding-y) var(--chat-padding-x);
+  border-radius: var(--rounded);
+  max-width: calc(100% - var(--chat-spacing-x));
+}
+#app-mount .cozy-VmLDNB .container-x059i8 {
+  padding: 0;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg {
+  background: var(--chat-bubble-bg);
+  display: inline-block;
+  border-radius: var(--rounded) var(--rounded);
+  max-width: 100%;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .header-2jRmjb {
+  padding-top: var(--chat-padding-y);
+  padding-right: var(--chat-padding-x);
+  padding-bottom: 2px;
+  padding-left: var(--chat-padding-x);
+  margin-left: 0;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:empty {
+  margin-top: 8px;
+  display: block;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
+  padding-top: 0;
+}
+.accountProfilePopoutWrapper-3GskID .bannerSVGWrapper-qc0szY,
+.accountProfilePopoutWrapper-3GskID .avatarWrapper-3y0KZ1,
+.accountProfilePopoutWrapper-3GskID .profileBadges-31rDHI,
+.accountProfilePopoutWrapper-3GskID .userProfileInner-3F03PX:before,
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda div:not(.menu-1QACrS, .menu-1QACrS *) {
+		width: 300px;
+}
+.accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
+    display: none;
+}
+.accountProfilePopoutWrapper-3GskID {
+    left: 0;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+    margin: 0;
+    border-radius: 4px;
+}
+.accountProfilePopoutWrapper-3GskID > div,
+.accountProfilePopoutWrapper-3GskID .menu-KSaHL1 .submenu-1apzyU {
+    border-radius: 4px;
+    width: 500px;
+}
+.didRender-2SiRlm>.userPopout-29jUdN {
+    width: 220px;
+}
 
+.didRender-2SiRlm>.userPopout-29jUdN .userPopoutInner-1v4xcM>:not(.overlayBackground-2Zjm9f),
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f>:not(#account.menu-1QACrS),
+.didRender-2SiRlm>.userPopout-29jUdN #account.menu-1QACrS #account-divider-1 {
+    display: none;
+}
 
+.didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
+    margin: 0;
+}
