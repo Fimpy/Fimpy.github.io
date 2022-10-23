@@ -2413,12 +2413,22 @@ html.theme-light .force-theme.theme-light {
   background: var(--gradient) !important;
 }
 
+#app-mount .mentioned-Tre-dv {
+  background: 
+}
+#app-mount .mentioned-Tre-dv::before {
+  background: 
+}
 #app-mount .mentioned-Tre-dv.groupStart-3Mlgv1 .contents-2MsGLg {
-  background: var(--gradient-mention) !important;
+  background:
 }
 #app-mount .mentioned-Tre-dv.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
-  background: transparent;
+  background: transparent !important;
 }
+#app-mount .mentioned-Tre-dv:not(.groupStart-3Mlgv1) .messageContent-2t3eCI:not(:empty) {
+  background: 
+}
+
 #app-mount .message-2CShn3.selected-2LX7Jy.cozyMessage-1DWF9U .contents-2MsGLg {
   display: block;
   width: 100%;
@@ -2496,4 +2506,9 @@ html.theme-light .force-theme.theme-light {
 
 .didRender-2SiRlm>.userPopout-29jUdN .overlayBackground-2Zjm9f {
     margin: 0;
+}
+
+.member-48YF_l,
+.members-3WRCEx {
+  background-color: transparent;
 }
