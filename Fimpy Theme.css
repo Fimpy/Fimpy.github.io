@@ -2414,7 +2414,7 @@ html.theme-light .force-theme.theme-light {
 }
 
 #app-mount .mentioned-Tre-dv {
-  background: 
+  background: var(--gradient) !important;
 }
 #app-mount .mentioned-Tre-dv::before {
   background: 
