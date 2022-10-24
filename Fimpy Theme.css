@@ -2621,4 +2621,18 @@ div:not(:hover)>.members-3WRCEx>div {
   height: 2px;
   background: var(--gradient);
 }
-
+#app-mount .userPopoutOuter-3AVBmJ {
+	right: 120px;
+	min-width: 350px;
+	position: relative;
+}
+#app-mount .menu-KSaHL1{
+	position: fixed;
+	width: 50px;
+	top: 520px;
+	left: 0px;
+	background: rgba(0,0,0,0.8);
+}
+#app-mount .menu-KSaHL1 .submenu-1apzyU {
+	background: rgba(0,0,0,0.8);
+}
