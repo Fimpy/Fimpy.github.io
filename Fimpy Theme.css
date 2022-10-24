@@ -2636,3 +2636,13 @@ div:not(:hover)>.members-3WRCEx>div {
 #app-mount .menu-KSaHL1 .submenu-1apzyU {
 	background: rgba(0,0,0,0.8);
 }
+#app-mount .menu-KSaHL1 .submenu-1apzyU {
+	background: var(--bg-main);
+}
+.item-1OdjEX {
+	background: var(--bg-main) !important;
+}
+.item-1OdjEX:hover {
+	background: var(--gradient) !important;
+}
+
