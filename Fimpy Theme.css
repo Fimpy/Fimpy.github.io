@@ -2530,8 +2530,18 @@ html.theme-light .force-theme.theme-light {
   background: var(--gradient-mention);
   box-shadow: none;
 }
-
-#app-mount .container-2o3qEW,
+#app-mount .container-2o3qEW {
+	background: var(--bg-alt);
+	position: fixed;
+	min-width: 65px;
+	width: 65px;
+	max-width: var(--members-width);
+	padding-right: 65px;
+	right: 0;  
+}
+.chatContent-3KubbW:not(:last-child) {
+  padding-right: 200px;
+}
 #app-mount .membersWrap-3NUR2t {
   border-left: 0 !important;
   min-width: var(--members-width);
@@ -2559,3 +2569,56 @@ html.theme-light .force-theme.theme-light {
 div:not(:hover)>.members-3WRCEx>div {
   padding-top: 10px;
 }
+#app-mount .member-2gU6Ar:hover .layout-1qmrhw {
+  background: var(--gradient);
+}
+#app-mount .channelTextArea-1FufC0 {
+  background: var(--bg-alt);
+  border-radius: var(--rounded);
+  border: 1px solid var(--textbox-border);
+  position: relative;
+  margin-bottom: 42px;
+  width: 1000px;
+}
+#app-mount .channelTextArea-1FufC0::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--bg-alt);
+}
+#app-mount .channelTextArea-1FufC0 .buttonWrapper-3YFQGJ {
+  display: flex;
+}
+#app-mount .channelTextArea-1FufC0:hover {
+  background:;
+}
+#app-mount .channelTextArea-1FufC0:focus-within {
+  background: ;
+}
+#app-mount .channelTextArea-1FufC0:focus-within::before {
+  height: 2px;
+  background: var(--gradient);
+}
+#app-mount .scrollableContainer-15eg7h {
+  background: transparent;
+}
+#app-mount .scrollableContainer-15eg7h .inner-NQg18Y {
+  position: unset;
+}
+#app-mount .channelTextArea-1FufC0 .buttonWrapper-3YFQGJ {
+  display: flex;
+}
+#app-mount .channelTextArea-1FufC0:hover {
+  background: var(--bg-alt);
+}
+#app-mount .channelTextArea-1FufC0:focus-within {
+  background: var(--bg-alt);
+}
+#app-mount .channelTextArea-1FufC0:focus-within::before {
+  height: 2px;
+  background: var(--gradient);
+}
+
