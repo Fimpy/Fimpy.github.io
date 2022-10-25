@@ -203,6 +203,9 @@
   height: 36px;
   cursor: var(--cursor);
 }
+#app-mount .guilds-2JjMmN [class*=pill] {
+  display: none;
+}
 #app-mount .actionButtons-2vEOUh .button-1EGGcP.buttonColor-3bP3fX.colorBrand-I6CyqQ {
   border-radius: var(--btn-radius);
   padding: 4px 10px;
@@ -2573,7 +2576,7 @@ div:not(:hover)>.members-3WRCEx>div {
   background: var(--gradient);
 }
 #app-mount .userPopoutOuter-3AVBmJ {
-	right: 120px;
+	right: 0;
 	min-width: 350px;
 	position: relative;
 }
@@ -2596,4 +2599,7 @@ div:not(:hover)>.members-3WRCEx>div {
 .role-2TIOKu  {
 	background: var(--gradient-mention) !important;
 	margin: 2px !important;
+}
+.userProfileModalOuter-1FYL8T {
+  width: 370px;
 }
