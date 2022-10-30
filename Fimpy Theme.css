@@ -2492,31 +2492,30 @@ html.theme-light .force-theme.theme-light {
   box-shadow: none;
 }
 #app-mount .container-2o3qEW {
-	background: var(--bg-alt);
 	position: fixed;
 	min-width: 65px;
 	width: 65px;
 	max-width: var(--members-width);
 	padding-right: 65px;
-	right: 0;  
+	right: 0;
+	transition: 0.3s ease;
 }
-.chatContent-3KubbW:not(:last-child) {
-  padding-right: 200px;
-}
-#app-mount .membersWrap-3NUR2t {
-  border-left: 0 !important;
-  min-width: var(--members-width);
-  padding: 2px 0;
+#app-mount .container-2o3qEW:hover {
+	background: rgba(0,0,0, var(--opacity));
+	position: relative;
+	transition: 0.3s ease;
 }
 .chatContent-3KubbW:not(:last-child) {
   padding-right: 65px;
 }
+
 .membersWrap-3NUR2t {
   min-width: unset;
   position: absolute;
   right: -100px;
 }
 .members-3WRCEx {
+	background: var(--bg-alt);
   max-width: 65px;
   min-width: 65px;
   transition: 0.3s ease;
@@ -2526,11 +2525,13 @@ html.theme-light .force-theme.theme-light {
   position: absolute;
   max-width: var(--members-width);
   min-width: var(--members-width);
+  background: rgba(0,0,0, var(--opacity));
 }
 div:not(:hover)>.members-3WRCEx>div {
   padding-top: 10px;
+  background: var(--bg-alt);
 }
-#app-mount .member-2gU6Ar:hover .layout-1qmrhw {
+p-mount .member-2gU6Ar:hover .layout-1qmrhw {
   background: var(--gradient);
 }
 #app-mount .channelTextArea-1FufC0 {
