@@ -2509,7 +2509,7 @@ html.theme-light .force-theme.theme-light {
   padding: 2px 0;
 }
 .chatContent-3KubbW:not(:last-child) {
-  padding-right: 200px;
+  padding-right: 65px;
 }
 .membersWrap-3NUR2t {
   min-width: unset;
@@ -2611,14 +2611,16 @@ div:not(:hover)>.members-3WRCEx>div {
   width: 370px;
 }
 
-.members-3WRCEx.PI-indicatorContainer {
+.members-3WRCEx .PI-indicatorContainer {
 	position: fixed;
 	right: 50px;
+	padding-top: 20px;
 	transition: 0.3s ease;
 }
 
 .members-3WRCEx:hover .PI-indicatorContainer {
 	position: relative;
 	right: 0px;
+	padding-top: 0px;
 	transition: 0.3s ease;
 }
