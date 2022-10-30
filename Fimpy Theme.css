@@ -2586,6 +2586,7 @@ div:not(:hover)>.members-3WRCEx>div {
 	min-width: 350px;
 	position: relative;
 }
+
 #app-mount .menu-KSaHL1{
 	position: fixed;
 	width: 50px;
@@ -2608,4 +2609,16 @@ div:not(:hover)>.members-3WRCEx>div {
 }
 .userProfileModalOuter-1FYL8T {
   width: 370px;
+}
+
+.members-3WRCEx.PI-indicatorContainer {
+	position: fixed;
+	right: 50px;
+	transition: 0.3s ease;
+}
+
+.members-3WRCEx:hover .PI-indicatorContainer {
+	position: relative;
+	right: 0px;
+	transition: 0.3s ease;
 }
