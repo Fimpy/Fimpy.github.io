@@ -2492,16 +2492,17 @@ html.theme-light .force-theme.theme-light {
   box-shadow: none;
 }
 #app-mount .container-2o3qEW {
+	background: var(--bg-alt);
 	position: fixed;
 	min-width: 65px;
 	width: 65px;
 	max-width: var(--members-width);
 	padding-right: 65px;
 	right: 0;
-	transition: 0.3s ease;
+	transition: 0s ease;
 }
 #app-mount .container-2o3qEW:hover {
-	background: rgba(0,0,0, var(--opacity)) !importa;
+	background: rgba(0,0,0, var(--opacity));
 	position: relative;
 	padding-right: 100px;
 	transition: 0s ease;
