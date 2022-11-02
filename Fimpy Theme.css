@@ -37,6 +37,7 @@
   transition-property: border-color;
 }
 #app-mount .search-39IXmY {
+  background: var(--bg-main);
   border-radius: var(--rounded);
   overflow: hidden;
   margin: 0 0 0 8px;
@@ -2543,7 +2544,7 @@ div:not(:hover)>.members-3WRCEx>div {
   padding-top: 10px;
   background: var(--bg-alt);
 }
-p-mount .member-2gU6Ar:hover .layout-1qmrhw {
+#app-mount .member-2gU6Ar:hover .layout-1qmrhw {
   background: var(--gradient);
 }
 #app-mount .channelTextArea-1FufC0 {
@@ -2605,7 +2606,7 @@ p-mount .member-2gU6Ar:hover .layout-1qmrhw {
 	width: 50px;
 	top: 520px;
 	left: 0px;
-	background: rgba(0,0,0,0.8);
+	background:var(--bg-main);
 }
 #app-mount .menu-KSaHL1 .submenu-1apzyU {
 	background: var(--bg-main);
